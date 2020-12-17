@@ -61,6 +61,8 @@ Using ISP, we can create separate interfaces for each operation or requirement r
 This principle is about dependencies among components. The definition of DIP is given by Robert C. Martin is as follows:
 
 1-High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+
 2-Abstractions should not depend on details. Details should depend on abstractions.
 
 Principle says that high-level modules should depend on abstraction, not on the details, of low-level modules. In simple words, the principle says that there should not be a tight coupling among components of software and to avoid that, the components should depend on abstraction.
