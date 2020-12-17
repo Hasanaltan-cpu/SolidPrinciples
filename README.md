@@ -64,3 +64,6 @@ This principle is about dependencies among components. The definition of DIP is 
 2-Abstractions should not depend on details. Details should depend on abstractions.
 
 Principle says that high-level modules should depend on abstraction, not on the details, of low-level modules. In simple words, the principle says that there should not be a tight coupling among components of software and to avoid that, the components should depend on abstraction.
+
+
+Visit me https://hsnaltan13.gitbook.io/solid-principles/
