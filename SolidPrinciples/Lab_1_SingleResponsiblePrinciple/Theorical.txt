@@ -1,0 +1,15 @@
+﻿Single Responsibility Principle
+
+	This principle support that " One class should have just a one job" and " One class should have just a oneresponsibility."Most of Developer,ın the scenerio that wants to add new property or new behaviour,they provide same class.That is totally wrong approach in terms of SRP.When it is applied these codes becomes  long and complex and it effects time management when repair.
+	
+	For example,
+	Registration of new worker;
+	*New worker notifications,
+	*Send to notification of new worker to Manager,
+
+	In this situation,we can all of them just a one class.But if we do that,we will face with SRP.Why do we prevent to failure of SRP?
+		-First of all codes that is writen , may change to spaghetti codes.And it will be problem on the repair time or when we want to change something it will effect our time in terms of finding.
+	How can we obey this principle?
+	 -In the example,2 different job should be done in the 2 different class.
+
+

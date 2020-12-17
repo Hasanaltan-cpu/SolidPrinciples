@@ -1,0 +1,4 @@
+﻿Liskov Substition Principle
+
+In this principle,"overrided or child classes,major or parent classes can change places."By this Rule,parent class which inherited to child class and without unexpected behaviour it should be use as a parent class.
+Classic example of this principle is,think a rectangle.Height is every value.Square is a rectangle that has same extend and height.By the way, rectangle provide us to extend as a square.For this principle,we should change rectangle class as a child class,square class is a parent class.We should create a parent class which contains all mutual properties.Then we create a class for all geometric shape.

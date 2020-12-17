@@ -1,0 +1,5 @@
+﻿Dependency Inversion Principle
+
+In this principle,high level moduls-classes,low level  modul-classes should be connected.Modul and Classes should connected with abstract/interfaces.Details should connected with abstract/interfaces.In this field,i mean details refer to methods which is inclueded class how to work.Crucial Point of that principle is that a class which run don't connect with the other tools.In addition to that , a class which inherited an interface , it should have parameter which is signed on the interface.
+
+In this point , parent class should be connect with an interface then we can inherit the other child classes. Because if we want to change any property we can easily reach to interface then parent class.

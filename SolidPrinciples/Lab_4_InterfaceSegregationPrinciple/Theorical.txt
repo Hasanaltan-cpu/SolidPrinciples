@@ -1,0 +1,6 @@
+﻿Interface Segration Principle
+
+In this principle , for every class we should use interface class properly.This is similiar SRP&LSP principles.For this "All concrete class should relation with it is own interface class".This principle's main purpose is avoid overloaded interfaces.We can choose lots of interface but all interface should have one responsibility(SRP).
+
+Bad Example,we demonstrate in this field, child classes implement from unneceserry interface.For example,
+ISeaAnimal interface is created by us.In this interface contains swimming and walking ability.I will create IDolphin and IPenguin classes.But IDolping can not walk.That's why we can not use ISeaAnimal for both of them.We should create an interface which contains Walking Methods.Moreover,IDolphin can not be inherited interface which was created by us for IPenguin.

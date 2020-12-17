@@ -1,0 +1,10 @@
+﻿Open/Closed Principle
+
+Entities should close to changeable but it can be develop or extend.All classes that we want to create our other demand is creating extendable class.Also OOP support to extend every classes.But on this extend process creating classes should be design as a class doesnt need to modification.Basically,we don't change method and behaviour of this class but we can change class.
+
+In the example;
+While a developer wants to update for library and framework ,that demands of the others for this changed codes developer easily reach to his codes and these codes can be changeable,by this way, he doesn't need to write all again.
+Attention point is while we are adding a new special property for any method we doesn't change our methods that we created before.
+
+At this Lab,think a basic coffeshop app.In this app we should have coffee class and species of coffe class and also we should get enum class that to use coffee and species class informations.For every coffee species that we need to add,we are going to enum.At this point,as a result of extending,we have to change for two classes and then we are opposite of OCP.But if we create an abstract class that contained a method and then we should use override.By this way,we don't chane anyhing on the classes.
+

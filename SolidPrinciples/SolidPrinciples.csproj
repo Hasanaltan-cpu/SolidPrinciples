@@ -52,6 +52,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab_1_SingleResponsiblePrinciple\BadExample\BadEmployeeProcess.cs" />
+    <Compile Include="Lab_1_SingleResponsiblePrinciple\GoodExample\GoodEmployeeProcess.cs" />
+    <Compile Include="Lab_1_SingleResponsiblePrinciple\GoodExample\GoodLogerProcess.cs" />
+    <Compile Include="Lab_1_SingleResponsiblePrinciple\Model\Employee.cs" />
+    <Compile Include="Lab_2_OpenClosedPrinciple\BadExample\CoffeeType.cs" />
+    <Compile Include="Lab_2_OpenClosedPrinciple\GoodExample\Abstract\GoodCar.cs" />
+    <Compile Include="Lab_2_OpenClosedPrinciple\GoodExample\Concrete\Gear.cs" />
+    <Compile Include="Lab_2_OpenClosedPrinciple\GoodExample\Concrete\Whell.cs" />
+    <Compile Include="Lab_2_OpenClosedPrinciple\GoodExample\Concrete\Door.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\BadExample\BadAreaCalculator.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\BadExample\BadRectangle.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\BadExample\BadSquare.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\GoodExample\Abstract\Shape.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\GoodExample\Concrete\Rectangle.cs" />
+    <Compile Include="Lab_3_LiskovsSubstituionPinciple\GoodExample\Concrete\Square.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\BadExample\Concrete\Dolphin.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\BadExample\Concrete\Penguin.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\BadExample\Interfaces\ISeaAnimal.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\GoodExample\Concrete\Dolphin.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\GoodExample\Concrete\Penguin.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\GoodExample\Interfaces\ISwimSeaAnimal.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\GoodExample\Interfaces\IWalknessSeaAnimal.cs" />
+    <Compile Include="Lab_4_InterfaceSegregationPrinciple\GoodExample\Interfaces\IWalkSeaAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -75,6 +98,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lab_1_SingleResponsiblePrinciple\Theorical.txt" />
+    <Content Include="Lab_2_OpenClosedPrinciple\Theorical.txt" />
+    <Content Include="Lab_3_LiskovsSubstituionPinciple\Theorical.txt" />
+    <Content Include="Lab_4_InterfaceSegregationPrinciple\Theorical.txt" />
+    <Content Include="Lab_5_DependencyInversionPrinciple\Theorical.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab_5_DependencyInversionPrinciple\BadExample\" />
+    <Folder Include="Lab_5_DependencyInversionPrinciple\GoodExample\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
