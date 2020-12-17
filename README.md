@@ -53,3 +53,14 @@ The ISP was first used and formulated by Robert C. Martin while consulting for X
 Interface segregation principle is required to solve the design problem of the application. When all the tasks are done by a single class or in other words, one class is used in almost all the application classes then it has become a fat class with overburden. Inheriting such class will results in having sharing methods which are not relevant to derived classes but its there in the base class so that will inherit in the derived class.
 
 Using ISP, we can create separate interfaces for each operation or requirement rather than having a single class to do the same work.
+
+
+## 5.Dependency Inversion Principle:
+
+
+This principle is about dependencies among components. The definition of DIP is given by Robert C. Martin is as follows:
+
+1-High-level modules should not depend on low-level modules. Both should depend on abstractions.
+2-Abstractions should not depend on details. Details should depend on abstractions.
+
+Principle says that high-level modules should depend on abstraction, not on the details, of low-level modules. In simple words, the principle says that there should not be a tight coupling among components of software and to avoid that, the components should depend on abstraction.
