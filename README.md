@@ -28,4 +28,7 @@ we use two questions before project start?
 
 For this principle, i gave examples in the project.
 
-## 2.Open/Closed Principle
+## 2.Open/Closed Principle:This principle suggests that the class should be easily extended but there is no need to change its core implementations."Classes should be unchangeable but on the other hand Classes should be open to improve/develop.
+
+The application or software should be flexible to change. How change management is implemented in a system has a significant impact on the success of that application/ software. The OCP states that the behaviors of the system can be extended without having to modify its existing implementation.
+
