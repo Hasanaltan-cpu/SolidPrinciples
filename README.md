@@ -1,16 +1,16 @@
 # SolidPrinciples
 
-## [*1.Single Responsibility Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_1_SingleResponsiblePrinciple)
+## [1.Single Responsibility Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_1_SingleResponsiblePrinciple)
 
 
-## [*2.Open/Closed Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_2_OpenClosedPrinciple)
+## [2.Open/Closed Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_2_OpenClosedPrinciple)
 
 
-## [*3.Liskov's Substituion Pinciple](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_3_LiskovsSubstituionPinciple)
+## [3.Liskov's Substituion Pinciple](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_3_LiskovsSubstituionPinciple)
 
-## [*4.Interface Segregation Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_4_InterfaceSegregationPrinciple)
+## [4.Interface Segregation Principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_4_InterfaceSegregationPrinciple)
 
-## [*5.Dependency Inversion principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_5_DependencyInversionPrinciple)
+## [5.Dependency Inversion principle](https://github.com/Hasanaltan-cpu/SolidPrinciples/tree/master/SolidPrinciples/Lab_5_DependencyInversionPrinciple)
 
 ![Spagetthi Codes](https://miro.medium.com/max/700/1*gpkPRXT8loz0xHrkC-pnMg.png)
 
