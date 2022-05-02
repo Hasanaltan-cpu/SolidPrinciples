@@ -70,3 +70,5 @@ Principle says that high-level modules should depend on abstraction, not on the 
 
 
 Visit me https://hsnaltan13.gitbook.io/solid-principles/
+
+
